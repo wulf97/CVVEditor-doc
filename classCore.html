@@ -70,7 +70,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Класс <a class="el" href="classCore.html" title="Класс Core предназначен для связывания модулей ядра с остальными модулями системы.">Core</a> предназначен для связывания модулей ядра с остальными модулями системы.  
+<p>Класс <a class="el" href="classCore.html" title="Класс Core связывает модули ядра с остальными модулями системы.">Core</a> связывает модули ядра с остальными модулями системы.  
  <a href="classCore.html#details">Подробнее...</a></p>
 
 <p><code>#include &lt;Core.h&gt;</code></p>
@@ -141,19 +141,61 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ended</b> ()</td></tr
 &#160;</td><td class="memItemRight" valign="bottom"><b>Core</b> (QObject *parent=nullptr)</td></tr>
 <tr class="separator:a5dfe977d4a73643fefe9826eb4790003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa481d8e9ee0b44baaa6de0f46302237a"><td class="memItemLeft" align="right" valign="top"><a id="aa481d8e9ee0b44baaa6de0f46302237a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>testSignals</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#aa481d8e9ee0b44baaa6de0f46302237a">testSignals</a> ()</td></tr>
+<tr class="memdesc:aa481d8e9ee0b44baaa6de0f46302237a"><td class="mdescLeft">&#160;</td><td class="mdescRight">testSignals используется для тестирования сигналов. <br /></td></tr>
 <tr class="separator:aa481d8e9ee0b44baaa6de0f46302237a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac98c31674253b119cd35fc6983645c00"><td class="memItemLeft" align="right" valign="top"><a id="ac98c31674253b119cd35fc6983645c00"></a>
-<a class="el" href="classVideoLoader.html">VideoLoader</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getVideoLoader</b> ()</td></tr>
+<tr class="memitem:ac98c31674253b119cd35fc6983645c00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVideoLoader.html">VideoLoader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ac98c31674253b119cd35fc6983645c00">getVideoLoader</a> ()</td></tr>
+<tr class="memdesc:ac98c31674253b119cd35fc6983645c00"><td class="mdescLeft">&#160;</td><td class="mdescRight">getVideoLoader используется для доступа к загрузчику видео.  <a href="#ac98c31674253b119cd35fc6983645c00">Подробнее...</a><br /></td></tr>
 <tr class="separator:ac98c31674253b119cd35fc6983645c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33f345a841ed5f6e489e1ae32455032d"><td class="memItemLeft" align="right" valign="top"><a id="a33f345a841ed5f6e489e1ae32455032d"></a>
-<a class="el" href="classVideoSeq.html">VideoSeq</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getVideoSeq</b> ()</td></tr>
+<tr class="memitem:a33f345a841ed5f6e489e1ae32455032d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVideoSeq.html">VideoSeq</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a33f345a841ed5f6e489e1ae32455032d">getVideoSeq</a> ()</td></tr>
+<tr class="memdesc:a33f345a841ed5f6e489e1ae32455032d"><td class="mdescLeft">&#160;</td><td class="mdescRight">getVideoSeq используется для доступа к загрузчику видеопоследовательностей.  <a href="#a33f345a841ed5f6e489e1ae32455032d">Подробнее...</a><br /></td></tr>
 <tr class="separator:a33f345a841ed5f6e489e1ae32455032d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
-<div class="textblock"><p>Класс <a class="el" href="classCore.html" title="Класс Core предназначен для связывания модулей ядра с остальными модулями системы.">Core</a> предназначен для связывания модулей ядра с остальными модулями системы. </p>
-<p><a class="el" href="classCore.html" title="Класс Core предназначен для связывания модулей ядра с остальными модулями системы.">Core</a> принимает сигнылы от внешних модулей и модулей ядра, а затем перенаправляет их по цепочке. </p>
-</div><hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<div class="textblock"><p>Класс <a class="el" href="classCore.html" title="Класс Core связывает модули ядра с остальными модулями системы.">Core</a> связывает модули ядра с остальными модулями системы. </p>
+<p><a class="el" href="classCore.html" title="Класс Core связывает модули ядра с остальными модулями системы.">Core</a> принимает сигнылы от внешних модулей и модулей ядра, а затем перенаправляет их по цепочке. </p>
+</div><h2 class="groupheader">Методы</h2>
+<a id="ac98c31674253b119cd35fc6983645c00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac98c31674253b119cd35fc6983645c00">&#9670;&nbsp;</a></span>getVideoLoader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classVideoLoader.html">VideoLoader</a> * Core::getVideoLoader </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getVideoLoader используется для доступа к загрузчику видео. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Указатель на <a class="el" href="classVideoLoader.html">VideoLoader</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a33f345a841ed5f6e489e1ae32455032d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33f345a841ed5f6e489e1ae32455032d">&#9670;&nbsp;</a></span>getVideoSeq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classVideoSeq.html">VideoSeq</a> * Core::getVideoSeq </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getVideoSeq используется для доступа к загрузчику видеопоследовательностей. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Указатель на <a class="el" href="classVideoSeq.html">VideoSeq</a>. </dd></dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
 <li>Core.h</li>
 <li>Core.cpp</li>
 </ul>

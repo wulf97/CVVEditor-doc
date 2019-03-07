@@ -5,6 +5,5 @@ var searchData=
   ['getvideocutterlist',['getVideoCutterList',['../classGUIManager.html#a3cf1a0634238ee6ba2394736567983f4',1,'GUIManager']]],
   ['getvideoloader',['getVideoLoader',['../classCore.html#ac98c31674253b119cd35fc6983645c00',1,'Core']]],
   ['getvideoseq',['getVideoSeq',['../classCore.html#a33f345a841ed5f6e489e1ae32455032d',1,'Core']]],
-  ['getviewport',['getViewport',['../classGUIManager.html#a91646df43b22fff89637981996e65e49',1,'GUIManager']]],
-  ['guimanager',['GUIManager',['../classGUIManager.html',1,'']]]
+  ['getviewport',['getViewport',['../classGUIManager.html#a91646df43b22fff89637981996e65e49',1,'GUIManager']]]
 ];
